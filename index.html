@@ -1,0 +1,86 @@
+<!-- Start Landing Page -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FlexBox Exercise #3 - Image carousel / Responsive </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<div class="landing-page">
+  <div class="container">
+    <div class="header-area">
+      <div class="logo">Cathy <b>Smith</b></div>
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="workdetail.html">UX</a></li>
+        <li><a href="photo.html">Photograph</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a class="contact" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="info">
+      <h1>Design For The Future</h1>
+      <p>My goal will be to create seamless and enjoyable experiences that help users achieve their goals, whether that is finding information, completing tasks, or making decisions. As a UX designer for an AI-powered future, I am excited that I will be at the forefront of an exciting new era in technology, where the possibilities are limited only by your imagination.</p>
+      <button onclick="location.href='work.html'">Explore</button>
+    </div>
+    <div class="image">
+      <img src="https://source.unsplash.com/heEPoapeiVk">
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+
+
+ <main>
+
+   <div id="carousel">
+
+      <div class="hideLeft">
+       <img src="https://source.unsplash.com/24HcJhf0u6M/500x500">
+
+     </div>
+
+     <div class="prevLeftSecond">
+       <img src="https://source.unsplash.com/hluOJZjLVXc/500x500">
+     </div>
+
+     <div class="prev">
+       <img src="https://source.unsplash.com/2TLREZi7BUg/500x500">
+     </div>
+
+     <div class="selected">
+       <img src="https://source.unsplash.com/KR84RpMCb0w/500x500">
+     </div>
+
+     <div class="next">
+       <img src="https://source.unsplash.com/pOu_UmkOG-0/500x500">
+     </div>
+
+     <div class="nextRightSecond">
+       <img src="https://source.unsplash.com/87oz2SoV9Ug/500x500">
+     </div>
+
+   <div class="hideRight">
+       <img src="https://i1.sndcdn.com/artworks-000064920701-xrez5z-t500x500.jpg">
+     </div>
+
+   </div>
+
+   <div class="buttons">
+     <button id="prev"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M16 23l-1.41-1.41L8 16l6.59-6.59L16 8l-8 8 8 7z" fill="#000"/>
+    </svg></button>
+     <button id="next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M8 23l1.41-1.41L16 16l-6.59-6.59L8 8l8 8-8 7z" fill="#000"/>
+    </svg></button>
+   </div>
+
+ </main>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!-- owl carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="home.js"></script>
+</html>
+<!-- End Landing Page -->
